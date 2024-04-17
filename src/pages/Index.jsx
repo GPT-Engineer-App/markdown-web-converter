@@ -18,7 +18,7 @@ const Index = () => {
     setLoading(true);
     try {
       // Simulated API call to fetch markdown and screenshot
-      const markdownResponse = `# Example Page\n\nThis is a markdown version of the page at ${url}.`;
+      const markdownResponse = `# Page Content\n\nThis is a simulated markdown conversion of the content at ${url}.`;
       const screenshotResponse = "https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBwYWdlJTIwc2NyZWVuc2hvdHxlbnwwfHx8fDE3MTMzNTI0Njl8MA&ixlib=rb-4.0.3&q=80&w=1080";
       setMarkdown(markdownResponse);
       setScreenshot(screenshotResponse);
